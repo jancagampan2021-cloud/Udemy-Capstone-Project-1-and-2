@@ -1,0 +1,225 @@
+* {
+    background-color: snow;
+    font-optical-sizing: auto;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+}
+
+.name {
+    font-family: "Corinthia", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-family: "Crimson Text", serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn1, .btn2 {
+    font-family: "Crimson Text", serif;
+    background-color: coral;
+    border: 0;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn3 {
+    font-family: "Crimson Text", serif;
+    background-color: transparent;
+    border: 1px solid coral;
+    color: black;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+#btn-d1, #btn-d2, #btn-d3 {
+    font-family: "Crimson Text", serif;
+    background-color: coral;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    font-family: "Crimson Text", serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    margin-top: 0;
+    margin-left: 50px;
+}
+
+div.section1 > div.info > h2 > span {
+    color: coral;
+}
+
+div.section1 > div.info > h3 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+div.section1 > div.info > h2 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+div.section1 > div > p {
+    font-size: 18px;
+}
+
+div.profile-pic > img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.about-me {
+    font-family: "Crimson Text", serif;
+    margin-top: 80px;
+}
+
+.sign {
+    font-family: "Corinthia", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: coral;
+    margin-top: 20px;
+}
+
+.skills {
+    font-family: "Crimson Text", serif;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.skills-list, .con-list {
+    list-style: none;
+}
+
+#hanging-icons > h2 {
+    font-family: "Crimson Text", serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+#hanging-icons > div > div:nth-child(1) > div:nth-child(2) > h5 {
+    font-family: "Crimson Text", serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+#hanging-icons > div > div:nth-child(2) > div:nth-child(2) > h5 {
+    font-family: "Crimson Text", serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+#hanging-icons > div > div:nth-child(3) > div:nth-child(2) > h5 {
+    font-family: "Crimson Text", serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}  
+
+div > img {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+#img-cp1, #img-cp2, #img-cp3 {
+    margin: 0;
+    height: 220px;
+    width: 350px;
+}
+
+.footer {
+    font-family: "Crimson Text", serif;
+    text-align: center;
+    font-style: italic;
+    margin:0;
+}
+
+@media (max-width: 600px) {
+    .header {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn1, .btn2, .btn3 {
+        display: block;
+        margin: 10px auto;
+        font-size: 14px;
+        width: 150px;
+        height: 40px;
+    }
+
+    .section1 {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        text-align: left;
+    }
+
+    div.profile-pic > img {
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .skills {
+        margin-left: 0;
+    }
+
+}
